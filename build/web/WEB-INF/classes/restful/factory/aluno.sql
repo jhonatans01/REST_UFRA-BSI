@@ -1,0 +1,7 @@
+CREATE SCHEMA IF NOT EXISTS bsi;
+USE bsi;
+
+CREATE TABLE aluno(
+ id INT PRIMARY KEY,
+ nome VARCHAR(50)
+);
